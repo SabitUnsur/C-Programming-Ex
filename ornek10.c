@@ -23,6 +23,5 @@ if(n==1) printf("Toplam : %f",toplam);
 	printf("Toplam : %f\n",toplam);
 
 
-
 	return 0;
 }

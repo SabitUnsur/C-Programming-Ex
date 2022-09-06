@@ -34,8 +34,8 @@ for(i=2;x>1;i++)
 	}	
 }
 
-if(toplam1==toplam2) printf("%d bir smith sayisidir\n",x);
-else printf("%d bir smith sayisi degildir",x);
+if(toplam1==toplam2) printf("%d bir smith sayisidir\n",sayi);
+else printf("%d bir smith sayisi degildir\n",sayi);
 
 return 0;
 }

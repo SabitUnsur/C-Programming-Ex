@@ -1,6 +1,6 @@
 [Project]
-FileName=ornek35.dev
-Name=ORNEK35
+FileName=Vize-Soru2.dev
+Name=Vize-Soru2
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=ornek35.c
+FileName=vize-Soru2.c
 CompileCpp=0
 Folder=
 Compile=1

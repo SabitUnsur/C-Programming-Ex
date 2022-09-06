@@ -34,13 +34,6 @@ printf("Sayi girin : \n");
  }
 printf("maks:%d ,islem :%d ,soncift :%d",max,adim,ciftBaslangic); 
 	
-	
-	
-	
-	
-	
-	
-	
 	return 0;
 }
 

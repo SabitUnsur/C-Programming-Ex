@@ -16,6 +16,7 @@ if(i==n) printf("Toplam : %f",toplam);
 for(i=1;i<n;i++)
 {
 	f1*=i;
+	
 	for(j=1;j<(n-i);j++)
 	{
 		f2*=j;

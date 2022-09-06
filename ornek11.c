@@ -5,33 +5,20 @@
 
 int main(int argc, char *argv[]) {
 
-	int x,us,n,k=2,fak=2;
-	float toplam=1;
-	printf("X degeri:\n");
-	scanf("%d",&x);
-	
-	printf("N degeri:\n");
-	scanf("%d",&n);
-	
-	for(k=2;k<x;k++)
-	{
-		for(us=2;us<=n;us++)
-		{	
-			if(k%2==1)
-			{
-				toplam-=pow(x,us)/fak;
-				if(fak%2==0) fak*=k;
-				//else fak=2;
-			}
-			
-			else
-			{
-				toplam+=pow(x,us)/fak;
-				fak*=us;
-			}	
-		}	
-   }	
-	printf("Toplam : %f",toplam);		
+	 int x,n,i,j,fak=1;
+ float t;
+ scanf("%d%d",&x,&n);
+ 
+ t=1;
+ for(i=1;n-1;i++)
+ {
+   fak=1;
+   for(j=1;j<=2*i;i++)
+    fak=fak*j;
+     t=t+pow(-1,i)*pow(x,(2*i))/fak;
+ }
+
+printf("%f",t);	
 	return 0;
 }
 	
