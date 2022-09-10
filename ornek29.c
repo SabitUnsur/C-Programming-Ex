@@ -36,9 +36,10 @@ int main(int argc, char *argv[]) {
 //POINTER DIZI ORNEGI
 
 float a[4]={1.0,2.0,3.0,4.0};
-float *apt;
-apt=a;
-printf("Toplam :  %f",toplam2(apt));
+//float *apt;
+//apt=a;
+printf("Toplam :  %f",toplam2(a));
+//printf("toplam : %f",toplam2(a));
 
 
 

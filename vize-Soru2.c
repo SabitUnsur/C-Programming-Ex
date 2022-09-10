@@ -17,7 +17,7 @@ if(k%2==1)
 	{
 		for(j=deger;j>=i;j--)
 		{
-			printf("%d",j); 
+			printf("%6d",j); 
 		} 
 		
 		an=i;
@@ -29,7 +29,7 @@ if(k%2==1)
  		{
 		    for(j=an;j<=deger;j++)
 	     	{
-				printf("%d",j);
+				printf("%6",j);
 				
 		    }
 			 k++; 

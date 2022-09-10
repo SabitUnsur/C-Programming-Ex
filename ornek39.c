@@ -6,6 +6,8 @@
 int main(int argc, char *argv[]) {
 	
 int yasAy,yasYil,yasGun,ay,yil,gun,dogumAy,dogumYil,dogumGun;
+
+
 printf("suanki gun\n");
 printf("suanki ay\n");
 printf("suanki yil\n");
@@ -29,22 +31,6 @@ if(dogumAy<ay) ay-=12; yil+=1;  yasAy=dogumAy-ay;
 yasYil= yil-dogumYil;
 
 printf(" %d yil %d ay %d gun yasindadir",yasYil,yasAy,yasGun);
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	return 0;
+		
+  return 0;
 }
