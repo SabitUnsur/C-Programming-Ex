@@ -5,17 +5,26 @@
 
 // ASAL CARPAN //
 int main(void){ 
- int us=0,sayi, degerler,i;
+
+ int us=0,sayi, sinir,i;
  printf("Bir sayi degeri giriniz...\n");
  scanf("%d",&sayi);
- for(i=2;sayi>=2;i++)
+ sinir=sayi;
+ 
+ for(i=2;i<=sinir;i++)
  {
-  while(sayi%i==0)
-  {
-	us++;  
-   printf("%d\t",i);
-   sayi=sayi/i;
-  }
- }
+  if ((sayi%i)==0){ 
+ us++; 
+ sayi=sayi/i; 
+ i--; 
+ continue;} 
+ 
+ if (us!=0) 
+ printf("%d^%d ",i,us); 
+ us=0;}
+ 
+
+ 
+ 
  return 0;} 
 
